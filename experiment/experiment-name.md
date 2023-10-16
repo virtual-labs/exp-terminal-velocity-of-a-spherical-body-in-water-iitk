@@ -1,1 +1,1 @@
-## Experiment nameTo determine the drag coefficient.
+## To determine the drag coefficient.

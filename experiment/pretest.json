@@ -2,38 +2,117 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. When a cricket bat hits a cricket ball, impulse is applied on the_________",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Bat",
+        "b": "Ball",
+        "c": "Bat and Ball",
+        "d": "No impulse is applied"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Momentum is a ______ quantity",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Scalar",
+        "b": "Vector",
+        "c": "Infinite",
+        "d": "Zero"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
-    }
+    },
+    {
+      "question":"3. The equation for impulse is_______",
+      "answers":{
+        "a": "F∆t=m∆v",
+        "b": "F∆t=mu",
+        "c": "F∆t=mT",
+        "d": "F∆t=mRT"
+      },
+      "correctAnswer":"a",
+      "difficulty":"beginner"
+    },
+    {
+      "question":"4. What is the SI unit of impulse?",
+      "answers":{
+        "a":"N/m",
+        "b": "N/m2",
+        "c": "N/s",
+        "d": "kg/m"
+      },
+      "correctAnswer":"c",
+      "difficulty":"beginner"
+    },
+    {
+      "question": "5. What is the SI unit of momentum?",
+      "answers":{
+        "a":"kgm/s",
+        "b":"kgm/s2",
+        "c":"kgm/s3",
+        "d":"kg.m2"
+      },
+      "correctAnswer":"a",
+      "difficulty":"beginner"
+    },
+    {
+      "question":"6. Change in momentum of an object is equal to the_______",
+      "answers":{
+        "a":"Internal Energy",
+        "b":"Entropy",
+        "c":"Impulse",
+        "d": "Enthalpy"
+      },
+      "correctAnswer":"c",
+      "difficulty":"beginner"
+    },
+    {
+      "question":"7. What is the unit of specific impulse?",
+      "answers":{
+        "a":"m/s",
+        "b":"m2/s",
+        "c":"m3/s",
+        "d":"m/s2"
+      },
+      "correctAnswer":"a",
+      "difficulty":"beginner"
+    },
+    {
+      "question":"8. What is the formula to find specific impulse?",
+      "answers":{
+        "a":"Jsp=m/v",
+        "b":"Jsp= J/m",
+        "c":"Jsp=T/m",
+        "d":"Jsp=J/q"
+      },
+      "correctAnswer":"b",
+      "difficulty":"beginner"
+    },
+    {
+      "question":"9. Angular momentum is a _______ quantity",
+      "answers":{
+        "a":"Scalar",
+        "b":"Vector",
+        "c":"Infinite",
+        "d":"Finite"
+      },
+      "correctAnswer":"b",
+      "difficulty":"beginner"
+      },{
+        "question":"10. Angular momentum is proportional to __________",
+        "answers":{
+          "a":"Inertia and angular speed",
+          "b":"Mass and angular speed",
+          "c":"Angular speed and volume",
+          "d":"Rate of change of angular speed"
+          
+        },
+        "correctAnswer":"a",
+        "difficulty":"beginner"
+      }
+  
   ]
 }

@@ -1,1 +1,1 @@
-<b> To determine the drag coefficient</b>
+ To determine the drag coefficient

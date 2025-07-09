@@ -3,30 +3,48 @@
 
 <b>Discipline | <b>Chemical Engineering
 :--|:--|
-<b> Lab | <b> Chemical Engineering Fluid Mechanics Lab
+<b> Lab | <b> Fluid Mechanics Lab
 <b> Experiment|     <b> To find out the terminal velocity of a spherical body in water
 
+### About the Lab (objective):
+The Fluid Mechanics Lab is designed to provide Chemical Engineering students with hands-on experience in understanding the behaviour of fluids under various conditions. The primary objective is to equip students with practical knowledge of fundamental fluid mechanics concepts and their applications in chemical and process industries. Through experimental work, students learn to analyse fluid flow, measure fluid properties, and evaluate performance characteristics of fluid handling equipment.
+
 ### About the Experiment 
-Fill here
 
-<b>Name of Developer | <b>  Dr. Neha Sharma
+This experiment determines the terminal velocity of a spherical body falling through water, where gravitational force is balanced by drag and buoyancy. It aids in understanding fluid resistance, particle settling, and drag force behaviour, relevant to sedimentation and fluid-solid interactions in chemical processes.
+
+### Target Audience :
+Chemical Engineering/science students, faculty members & industry persons
+
+### Course Alignment : 
+This lab is aligned with core and applied courses such as Fluid Mechanics, Momentum Transfer, and Transport Phenomena. It reinforces theoretical concepts related to fluid flow behaviour, pressure dynamics, and hydraulic equipment performance, supporting students' understanding of fluid systems in chemical process design, reactor engineering, and equipment selection.
+
+### Universities Mapped :
+• Dr. A.P.J. Abdul Kalam Technical University, Lucknow <br>
+• Panjab University	<br>
+• Harcourt Butler Technical University (HBTU), Kanpur	<br>
+• National Institute of Technology Calicut	<br>
+• National Institute of Technology Raipur	<br>
+• Guru Gobind Singh Indraprastha University Delhi (USCT)	<br>
+• Assam Engineering College Assam <br><br>
+
+
+<b>Name of Developer | <b>  Dr. Zeenat Arif
 :--|:--|
-<b> Institute | <b> Meerut Institute of Engineering and Technology
-<b> Email id|     <b>  neha.sharma.ch@miet.ac.in
+<b> Institute | <b> Harcourt Butler Technical University, Kanpur
+<b> Email id|     <b>  dariflt@hbtu.ac.in
 <b> Department |  Chemical Engineering
-
-<b>Mentored by | <b> Mrs. Sheetal Singh
-:--|:--|
-<b> Institute | <b> IIT Kanpur 
-<b> Email id|     <b> sheetals@iitk.ac.in
 
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Dr. Neha Sharma | Faculty | Chemical Engineering | Meerut Institute of Engineering and Technology, Meerut | neha.sharma.ch@miet.ac.in
-2 | Atul Pratap Singh | Student| CSE(AI/ML) | Meerut Institute of Engineering and Technology, Meerut | atul.singh.cseaiml.2020@miet.ac.in
-3 | Satyam Sangwan | Student | CSE | Meerut Institute of Engineering and Technology, Meerut | satyam.sangwan.cse.2020@miet.ac.in
-4 | Veer Pratap Singh | Student | CSE(AI/ML) | Meerut Institute of Engineering and Technology, Meerut | veer.singh.cseaiml.2020@miet.ac.in
+1 | Dr. Zeenat Arif | Faculty | Chemical Engineering | Harcourt Butler Technical University, Kanpur | dariflt@hbtu.ac.in
+2 | Prof. Vivek Kumar | Faculty| Food Technology | Harcourt Butler Technical University, Kanpur | viveksachan99@gmail.com
+3 | Er. Anjali Srivastava | Faculty | Food Technology | Institute of Engineering & Technology, Bundelkhand University, Jhansi | fetbujhansi@gmail.com
+4 | Dr. Anupam Vyas  | Faculty | Electronics & Communication Engineering | Institute of Engineering & Technology, Bundelkhand University, Jhansi | dr.anupam@bujhansi.ac.in
+5 | Dr. Sanjeev Kumar Shrivastava  | Faculty | Physics | Bundelkhand University, Jhansi | sksphys7@gmail.com
+6 | Pradum Yadav | Student | Computer Science & Engineering | Institute of Engineering & Technology, Bundelkhand University, Jhansi | pradumpd2@gmail.com
+
 

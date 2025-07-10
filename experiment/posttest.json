@@ -2,112 +2,57 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. The Kinetic energy of an object of mass 1 Kg is 72 J. The momentum of the object is:",
+      "question": "1. At terminal velocity, the net force acting on a spherical body falling through water is:",
       "answers": {
-        "a": "6 Kg m/s",
-        "b": "12 Kg m/s",
-        "c": "9 Kg m/s",
-        "d": "24 Kg m/s"
+        "a": "Equal to the weight of the body",
+        "b": "Equal to viscous force",
+        "c": "Equal to buoyant force",
+        "d": "zero"
       },
       
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "2. Impulse is defined as the change in:",
+      "question": "2. If the radius of a spherical body is doubled, its terminal velocity in water will be",
       "answers": {
-        "a": "Kinetic energy",
-        "b": "Linear momentum",
-        "c": "Linear velocity",
-        "d": "Acceleration"
+        "a": "Double",
+        "b": "Half",
+        "c": "One fourth",
+        "d": "Quadrupled"
       },
      
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "3. What is the momentum of an object having mass of 14 Kg and velocity 28 m/s?",
+      "question": "3. The terminal velocity of a spherical body falling in water is directly proportional to: ",
       "answers":{
-        "a": "1/392 kg-m/s",
-        "b": "2 Kg-m/s",
-        "c": "0.5 Kg-m/s",
-        "d": "392 Kg-m/s"
+        "a": "Water viscosity",
+        "b": "Water density",
+        "c": "Radius",
+        "d": "Square of radius"
       },
       "correctAnswer": "d",
       "difficulty":"beginner"
     },
     {
-      "question": "4. Two balls at the same temperature collide. What is conserved?",
+      "question": "4. Terminal velocity is reached when",
       "answers":{
-        "a": "Momentum",
-        "b": "Velocity",
-        "c": "Temperature",
-        "d": "Kinetic Energy"
+        "a": "Drag force > gravitational force",
+        "b": "Drag force < gravitational force",
+        "c": "Drag force = 0",
+        "d": "Net force acting on object =0"
       },
-      "correctAnswer":"a",
+      "correctAnswer":"d",
       "difficulty":"beginner"
     },{
-      "question": "5. If the linear momentum of a moving object gets doubled due to application of a force, then its kinetic energy will",
+      "question": "5. What is the CGS unit of dynamic viscosity?",
       "answers":{
-        "a":"remain same",
-        "b":"to increase by four times",
-        "c": "to increase by two times",
-        "d": "to increase by eight times"
-      },
-      "correctAnswer":"b",
-      "difficulty":"beginner"
-    },
-    {
-      "question":"6. which of the energy is possessed by a horse running on a level road?",
-      "answers":{
-        "a": "Potential energy",
-        "b": "Kinetic energy",
-        "c": "pressure energy",
-        "d":"heat energy"
-      },
-      "correctAnswer":"b",
-      "difficulty":"beginner"
-    },
-    {
-      "question":"7. When the speed of a moving body is doubled?",
-      "answers":{
-        "a": "its acceleration is doubled",
-        "b": "its momentum is doubled",
-        "c":"its kinetic energy is doubled",
-        "d":"its potential energy is doubled"
-      },
-      "correctAnswer":"b",
-      "difficulty":"beginner"
-    },
-    {
-      "question": "8. What would be the momentum of the bullet and the gun before firing?",
-      "answers":{
-        "a":"the momentum of the bullet and the gun before firing would be zero",
-        "b": "the momentum of the bullet would be more than that of the gun",
-        "c":"the momentum of the gun would be more than that of the bullet",
-        "d": "both would have certain velocity and so have the same momentum"
-      },
-      "correctAnswer":"a",
-      "difficulty":"beginner"
-    },
-    {
-      "question":"9. If the momentum of an object increases by 20%, its kinetic energy will increase by________.",
-      "answers":{
-        "a":"66%",
-        "b":"77%",
-        "c":"44%",
-        "d":"55%"
-      },
-      "correctAnswer":"c",
-      "difficulty":"beginner"
-      
-    },{
-      "question":"10. Find the momentum of a body of mass 200g having a kinetic energy of 10J.",
-      "answers":{
-        "a":"20 kgm/s",
-        "b":"0.2 kgm/s",
-        "c": "2 kgm/s",
-        "d": "2000 kgm/s"
+        "a": "centipoise",
+        "b": "kg/m sec",
+        "c": "poise",
+        "d": "none of above"
       },
       "correctAnswer":"c",
       "difficulty":"beginner"

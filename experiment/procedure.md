@@ -1,4 +1,4 @@
-<b>Requirements (Instruments, Chemicals & Other) : </b><br><br>
+<b>Requirements (Instruments, Chemicals & Other) : </b><br>
 
 •	A glass cylinder of about 5 cm (or more) in diameter and about 100 cm in length<br>
 •	Spherical metal balls of diameters ranging from 1 to 3 mm<br> 
@@ -7,7 +7,7 @@
 •	Meter scale<br> 
 •	Experimental liquid (water) <br><br>
 
-<b>Procedure : </b><br><br>
+<b>Procedure : </b><br>
 
 1.	Select three sets of balls; measure the diameter (2r) and hence the radius (r) of each ball by screw gauge. If the balls are very small, use a microscope for the measurement of the radius. <br>
 2.	Set the cylinder vertically on a stand and pour the experimental liquid (water) slowly. <br>

@@ -1,0 +1,63 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The terminal velocity of a spherical body falling through water depends on:",
+      "answers": {
+        "a": "Radius of sphere",
+        "b": "Density and viscosity of water",
+        "c": "Density of sphere",
+        "d": "All of above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. As a spherical body falls through water, its velocity: ",
+      "answers": {
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Remains constant",
+        "d": "Increases initially, then becomes constant"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question":"3. When a spherical body reaches terminal velocity in water:",
+      "answers":{
+        "a": "The drag force equals the sum of the weight and the buoyant force",
+        "b": "The buoyant force is less than the weight",
+        "c": "It experiences a decreasing drag force",
+        "d": "It continues to accelerate"
+      },
+      "correctAnswer":"a",
+      "difficulty":"beginner"
+    },
+    {
+      "question":"4. Which of the following factors does not affect the terminal velocity of a spherical body falling in water?",
+      "answers":{
+        "a": "The density of the sphere",
+        "b": "The shape of the body (if it remains spherical)",
+        "c": "The viscosity of water",
+        "d": "Acceleration due to gravity"
+      },
+      "correctAnswer":"b",
+      "difficulty":"beginner"
+    },
+    {
+      "question": "5. Stokes' Law, which describes the viscous force on a spherical object moving through a fluid, is applicable when: ",
+      "answers":{
+        "a":"Flow is laminar",
+        "b":"Flow is turbulent",
+        "c":"Fluid is compressible",
+        "d":"Fluid is incompressible"
+      },
+      "correctAnswer":"a",
+      "difficulty":"beginner"
+    }
+  
+  ]
+}

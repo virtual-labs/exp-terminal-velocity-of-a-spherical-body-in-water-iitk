@@ -1,0 +1,61 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. At terminal velocity, the net force acting on a spherical body falling through water is:",
+      "answers": {
+        "a": "Equal to the weight of the body",
+        "b": "Equal to viscous force",
+        "c": "Equal to buoyant force",
+        "d": "zero"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. If the radius of a spherical body is doubled, its terminal velocity in water will be",
+      "answers": {
+        "a": "Double",
+        "b": "Half",
+        "c": "One fourth",
+        "d": "Quadrupled"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The terminal velocity of a spherical body falling in water is directly proportional to: ",
+      "answers":{
+        "a": "Water viscosity",
+        "b": "Water density",
+        "c": "Radius",
+        "d": "Square of radius"
+      },
+      "correctAnswer": "d",
+      "difficulty":"beginner"
+    },
+    {
+      "question": "4. Terminal velocity is reached when",
+      "answers":{
+        "a": "Drag force > gravitational force",
+        "b": "Drag force < gravitational force",
+        "c": "Drag force = 0",
+        "d": "Net force acting on object =0"
+      },
+      "correctAnswer":"d",
+      "difficulty":"beginner"
+    },{
+      "question": "5. What is the CGS unit of dynamic viscosity?",
+      "answers":{
+        "a": "centipoise",
+        "b": "kg/m sec",
+        "c": "poise",
+        "d": "none of above"
+      },
+      "correctAnswer":"c",
+      "difficulty":"beginner"
+    }
+  ]
+}

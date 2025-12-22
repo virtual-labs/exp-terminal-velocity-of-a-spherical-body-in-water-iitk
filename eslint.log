@@ -1,0 +1,14 @@
+
+/home/runner/work/exp-terminal-velocity-of-a-spherical-body-in-water-iitk/exp-terminal-velocity-of-a-spherical-body-in-water-iitk/experiment/simulation/SCRIPT/script.js
+    3:5   warning  'calculate' is assigned a value but never used           no-unused-vars
+   69:7   warning  'setMoveCap_forward' is assigned a value but never used  no-unused-vars
+   81:7   warning  'dropWater' is assigned a value but never used           no-unused-vars
+  148:7   warning  'close_message' is assigned a value but never used       no-unused-vars
+  255:10  warning  'closeTable' is defined but never used                   no-unused-vars
+  266:7   warning  'calculate_' is assigned a value but never used          no-unused-vars
+  355:7   warning  'ball_small' is assigned a value but never used          no-unused-vars
+  361:7   warning  'ball_medium' is assigned a value but never used         no-unused-vars
+  367:7   warning  'ball_large' is assigned a value but never used          no-unused-vars
+
+✖ 9 problems (0 errors, 9 warnings)
+

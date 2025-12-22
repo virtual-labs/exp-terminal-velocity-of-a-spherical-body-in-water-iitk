@@ -116,7 +116,7 @@ const dropWater = () => {
 
     // Replace with bottle + cap image, show new apparatus
     setTimeout(() => {
-        bottle.src = "../images/halfwaterwithcap.png";
+        bottle.src = "./images/halfwaterwithcap.png";
         cap.style.display = "none";
         const app4 = document.querySelector(".apparatus-4");
         const app5 = document.querySelector(".apparatus-5");

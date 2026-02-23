@@ -28,15 +28,15 @@ const FINAL_ANIM_DELAY = 8000;
 const MESSAGE_DELAY = 10000;
 
 const time_img = {
-    5: '2_60_time.jpg',
-    6: '2_55_time.jpg',
-    7: '2_50_time.jpg',
-    8: '3_10_time.jpg',
-    9: '3_00_time.jpg',
-    10: '3_05_time.jpg',
-    11: '3_60_time.jpg',
-    12: '3_00_time.jpg',
-    13: '3_05_time.jpg',
+    11: '3.60-removebg-preview.png',
+    12: '3.50-removebg-preview.png',
+    13: '3.55-removebg-preview.png',
+    8: '3.10-removebg-preview.png',
+    9: '3.00-removebg-preview.png',
+    10: '3.05-removebg-preview.png',
+    5: '2.60-removebg-preview.png',
+    6: '2.55-removebg-preview.png',
+    7: '2.50-removebg-preview.png',
 }
 
 // Get DOM elements (safe queries)
@@ -116,7 +116,7 @@ const dropWater = () => {
 
     // Replace with bottle + cap image, show new apparatus
     setTimeout(() => {
-        bottle.src = "./images/halfwaterwithcap.png";
+        bottle.src = "images/halfwaterwithcap.png";
         cap.style.display = "none";
         const app4 = document.querySelector(".apparatus-4");
         const app5 = document.querySelector(".apparatus-5");
@@ -126,7 +126,7 @@ const dropWater = () => {
 
     // Show message box
     setTimeout(() => {
-        messaga_open('measurement_screw_gauge.png');
+        messaga_open("measurement_screw_gauge.png");
     }, MESSAGE_DELAY);
 
     ins_step++;
@@ -140,7 +140,9 @@ const messaga_open = (img_name) => { // kept name to match original
 
     if (!msgBox || !msgImg) return;
 
-    msgImg.src = `../experiment_img/${img_name}`;
+    msgImg.src = `experiment_img/${img_name}`;
+    console.log(msgImg.src);
+
     msgBox.style.display = 'flex';
 };
 
@@ -329,14 +331,14 @@ const animateBall = async (selector, animationName, arrowLeft, hideArrow = false
     // Mid animation: update stopwatch and opacity
     setTimeout(() => {
         ball.style.opacity = '0.7';
-        if (stopWatch) stopWatch.src = `../images/${time_img[ins_step]}`;
+        if (stopWatch) stopWatch.src = `images/${time_img[ins_step]}`;
     }, ANIM_DELAY);
 
     // Reset animation and UI
     setTimeout(() => {
         ball.style.opacity = '1';
         ball.style.animationName = '';
-        if (stopWatch) stopWatch.src = '../images/stopwatch.png';
+        if (stopWatch) stopWatch.src = 'images/stopwatch.png';
         if ([7, 10, 13].includes(ins_step) && arrow) arrow.style.left = arrowLeft;
         table_show();
         ins_step++;
@@ -373,20 +375,20 @@ const ball_large = async () => {
 // ---------------- step-driven table population ----------------
 const table_show = () => {
     // NOTE: you must use consistent setNo values when calling setExprimentData / updateExprimentData
-    if ([5, 6, 7].includes(ins_step)) {
-        if (ins_step === 5) {
+    if ([11, 12, 13].includes(ins_step)) {
+        if (ins_step === 11) {
             // Set 1
-            setExprimentData(1, 0.15, [2.60, null, null]);
+            setExprimentData(3, 0.15, [3.60, null, null]);
             renderTable();
         }
-        if (ins_step === 6) {
+        if (ins_step === 12) {
             // fill 2nd reading for set 1
-            updateExprimentData(1, 1, 2.55);
+            updateExprimentData(3, 1, 3.50);
             renderTable();
         }
-        if (ins_step === 7) {
+        if (ins_step === 13) {
             // fill 3rd reading for set 1 -> meanT will be computed
-            updateExprimentData(1, 2, 2.50);
+            updateExprimentData(3, 2, 3.55);
             renderTable(1);
         }
     }
@@ -406,17 +408,17 @@ const table_show = () => {
         }
     }
 
-    if ([11, 12, 13].includes(ins_step)) {
-        if (ins_step === 11) {
-            setExprimentData(3, 0.10, [3.60, null, null]); // setNo = 3
+    if ([5, 6, 7].includes(ins_step)) {
+        if (ins_step === 5) {
+            setExprimentData(1, 0.10, [2.60, null, null]); // setNo = 3
             renderTable();
         }
-        if (ins_step === 12) {
-            updateExprimentData(3, 1, 3.50);
+        if (ins_step === 6) {
+            updateExprimentData(1, 1, 2.55);
             renderTable();
         }
-        if (ins_step === 13) {
-            updateExprimentData(3, 2, 3.55);
+        if (ins_step === 7) {
+            updateExprimentData(1, 2, 2.50);
             renderTable(1);
         }
     }
